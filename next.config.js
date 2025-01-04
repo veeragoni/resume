@@ -3,12 +3,12 @@ const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true },
-  eslint: {
-    ignoreDuringBuilds: true,
+  images: {
+    unoptimized: true
   },
-  basePath: isProd ? '/resume' : '', // Replace with your repo name
-  assetPrefix: isProd ? '/resume/' : '', // Replace with your repo name
+  basePath: '/resume',
+  assetPrefix: '/resume/',
 }
 
 module.exports = nextConfig
+

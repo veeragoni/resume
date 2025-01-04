@@ -1,10 +1,16 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { ResumeData } from "@/lib/resume"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import { ResumeData } from "@/lib/resume";
+import Image from "next/image";
 
-export function Hero({ personal, summary }: { personal: ResumeData['personal'], summary: string }) {
+export function Hero({
+  personal,
+  summary,
+}: {
+  personal: ResumeData["personal"];
+  summary: string;
+}) {
   return (
     <section className="min-h-screen pt-16 flex items-center">
       <div className="container mx-auto px-4">
@@ -14,8 +20,12 @@ export function Hero({ personal, summary }: { personal: ResumeData['personal'], 
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">{personal.name}</h1>
-            <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6">{personal.title}</h2>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+              {personal.name}
+            </h1>
+            <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6">
+              {personal.title}
+            </h2>
             <p className="text-lg text-muted-foreground mb-8">{summary}</p>
             <div className="flex gap-4">
               <motion.div
@@ -46,18 +56,22 @@ export function Hero({ personal, summary }: { personal: ResumeData['personal'], 
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="relative aspect-square rounded-full border-2 border-muted"
+            className="relative aspect-square rounded-full border-0 border-muted"
           >
-            <Image
-              src={personal.avatar}
-              alt={personal.name}
-              fill
-              className="rounded-full object-cover"
-              priority
-            />
+            <div className="absolute w-1/2 h-1/2 top-1/4 left-1/4">
+              {" "}
+              {/* Added wrapper div */}
+              <Image
+                src={personal.avatar}
+                alt={personal.name}
+                fill
+                className="rounded-full object-cover"
+                priority
+              />
+            </div>
           </motion.div>
         </div>
       </div>
     </section>
-  )
+  );
 }
