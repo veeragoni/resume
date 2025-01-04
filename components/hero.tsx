@@ -44,7 +44,7 @@ export function Hero({
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href="/resume.pdf"
+                  href={`/${personal.name.replace(" ", "_")}.pdf`}
                   className="inline-flex h-11 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground"
                 >
                   Download CV
