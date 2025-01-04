@@ -5,6 +5,7 @@
   "homepage": "https://veeragoni.github.io/resume",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "cp Suresh_Veeragoni.pdf public/",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
