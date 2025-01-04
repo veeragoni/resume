@@ -1,0 +1,118 @@
+personal:
+  name: Suresh Veeragoni
+  title: Senior Technology Leader
+  email: suresh@veeragoni.com
+  location: Seattle, WA
+  website: https://github.com/veeragoni
+  avatar: https://avatars.githubusercontent.com/u/1540624?s=400&u=a603bbf818953c55a6331244a088c11a643dfa03&v=4
+  social:
+    github: veeragoni
+    linkedin: veeragoni
+    twitter: veeragoni
+
+summary: >
+  Strategically focused senior technology leader with 20+ years of engineering leadership experience. 
+  Key driver of AI & cloud migration strategy for various organizations. Experience in leading global teams, 
+  partner enablement, building automations and go-to-market programs. Passionate about mentoring, 
+  building business and technology strategy with a focus on long-term vision and delivering results.
+
+experience:
+  - company: Amazon Web Services (AWS)
+    position: Partner AI Technologist
+    location: Seattle, WA
+    period: June 2017 - Present
+    highlights:
+      - Leading AI/GenAI strategy for industry verticals partners and built several reference architectures to accelerate and scale AI services adoption by customers
+      - Helped multiple industry vertical (HCLS, Manufacturing, Automative, Telecom) organizations to build Foundation Model based applications
+      - Led 100s of successful engagements with internal & external teams driving customer success resulting in 500M+ revenue
+      - Built strategy for ISV cloud migration acceleration including technical content, templates, and tooling
+      - Mentored 100s of solution architects and engineers globally & helped in accelerating employee on-boarding
+      - Created processes resulting in 10M+ cost savings via optimizations
+
+  - company: EOG Resources
+    position: Senior Enterprise Architect
+    location: Houston, TX
+    period: Jan 2017 - June 2017
+    highlights:
+      - Built Enterprise Architecture strategy using microservices architecture and DevOps principles
+      - Implemented container strategy and trained staff on technology platform adoption
+      - Architected real-time data streaming and ML reference architectures for IoT applications
+
+  - company: Sogeti USA LLC (Capgemini)
+    position: Senior Manager & Principal Architect
+    location: Houston, TX
+    period: Aug 2007 - Jan 2017
+    highlights:
+      - Led teams building middleware, data migration, AI/ML workloads across multiple industries
+      - Designed and built predictive maintenance solution for IoT/sensor data analytics
+      - Worked as Microsoft Virtual Technology Specialist helping customers solve middleware challenges
+      - Led practice development and mentored 100s of developers & architects
+
+education:
+  - degree: B.E in Electrical & Electronics Engineering
+    institution: Osmania University
+    location: Hyderabad, India
+    period: 2004
+    gpa: "4.0"
+
+skills:
+  technical:
+    - category: AI & Cloud
+      items:
+        - name: Generative AI/LLMs
+          level: 95
+        - name: AWS Services
+          level: 95
+        - name: Cloud Architecture
+          level: 90
+        - name: DevSecOps
+          level: 85
+
+    - category: Technologies
+      items:
+        - name: Python
+          level: 90
+        - name: Kubernetes
+          level: 85
+        - name: Terraform/CloudFormation
+          level: 85
+        - name: Data Engineering
+          level: 90
+
+  soft:
+    - Digital Transformation
+    - Strategy & Consulting
+    - Enterprise Architecture
+    - Partner Management
+    - Technical Leadership
+    - Public Speaking
+
+projects:
+  - name: GenAI Technical Workshops
+    description: Built workshops to enable builders with hands-on GenAI experience
+    technologies: [LLMs, RAG, Agents, Fine-tuning]
+    link: https://github.com/veeragoni
+    highlights:
+      - Developed comprehensive training on Prompt Engineering and RAG
+      - Implemented privacy-centric data & security best practices
+      - Created evaluation frameworks for Foundation Model applications
+
+  - name: Predictive Maintenance Solution
+    description: Data science solution for oil & gas drilling equipment
+    technologies: [AWS, Python, IoT, Machine Learning]
+    link: https://patents.google.com/patent/EP3334897B1
+    highlights:
+      - Architected solution processing petabytes of data
+      - Led implementation resulting in granted patent
+      - Integrated real-time IoT data processing pipeline
+
+certifications:
+  - name: AWS Solutions Architect Professional
+    issuer: Amazon Web Services
+    date: 2023
+    link: https://aws.amazon.com/certification
+
+  - name: Microsoft Certified Professional
+    issuer: Microsoft
+    date: 2022
+    link: https://learn.microsoft.com/certifications
