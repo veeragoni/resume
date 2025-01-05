@@ -33,7 +33,12 @@ export function Hero({
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href="#contact"
+                  href={`mailto:${personal.email}`}
+                  onClick={(e) => {
+                    window.location.href = `mailto:${personal.email}`;
+                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex h-11 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90"
                 >
                   Contact Me

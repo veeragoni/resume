@@ -18,7 +18,8 @@ export function Header({ personal }: { personal: ResumeData["personal"] }) {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <Link href="/" className="text-lg font-semibold">
-            {personal.name}
+            {/* {personal.name} */}
+            Professional Profile
           </Link>
         </div>
         <div className="flex items-center gap-4">
