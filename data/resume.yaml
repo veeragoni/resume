@@ -47,6 +47,19 @@ experience:
       - Designed and built predictive maintenance solution for IoT/sensor data analytics
       - Worked as Microsoft Virtual Technology Specialist helping customers solve middleware challenges
       - Led practice development and mentored 100s of developers & architects
+  
+  - company: Satyam Computer Services Ltd (Tech Mahindra) 
+    position: Senior Software Engineer
+    location: Houston, TX
+    period: Jul 2004 - Aug 2007
+    highlights:
+      - Built middleware, web and analytics applications for customers from finance and manufacturing
+      industries.
+      - UI/UX prototypes and middleware development for CheckFree (currently part of Fiserv) asset
+      management.
+      - Implemented Google Maps integration for customer location finder application for Wilson
+      International (Currently part of NOV).
+      - Built dashboard metrics for effective usage of the ROV data for Oceaneering.
 
 education:
   - degree: B.E in Electrical & Electronics Engineering
