@@ -19,6 +19,7 @@ export default function Home() {
       <Skills skills={resumeData.skills} />
       <Projects projects={resumeData.projects} />
       <Certifications certifications={resumeData.certifications} />
+      <Contact personal={resumeData.personal} />
     </main>
   )
 }
