@@ -131,8 +131,3 @@ certifications:
     issuer: Amazon Web Services
     date: 2018
     link: https://cp.certmetrics.com/amazon/en/public/verify/credential/R26HB1P1KNF1QHWJ
-
-  - name: Microsoft Certified Professional
-    issuer: Microsoft
-    date: 2022
-    link: https://learn.microsoft.com/certifications
