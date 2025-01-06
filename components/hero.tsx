@@ -28,17 +28,12 @@ export function Hero({
             </h2>
             <p className="text-lg text-muted-foreground mb-8">{summary}</p>
             <div className="flex gap-4">
-              <motion.div
+            <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href={`mailto:${personal.email}`}
-                  onClick={(e) => {
-                    window.location.href = `mailto:${personal.email}`;
-                  }}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#contact"
                   className="inline-flex h-11 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90"
                 >
                   Contact Me

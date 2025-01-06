@@ -6,6 +6,7 @@ import { Education } from '@/components/sections/education'
 import { Skills } from '@/components/sections/skills'
 import { Projects } from '@/components/sections/projects'
 import { Certifications } from '@/components/sections/certifications'
+import { Contact } from "@/components/contact";
 
 export default function Home() {
   const resumeData = getResumeData()
