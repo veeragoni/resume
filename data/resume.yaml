@@ -117,10 +117,20 @@ projects:
       - Integrated real-time IoT data processing pipeline
 
 certifications:
-  - name: AWS Solutions Architect Professional
+  - name: AWS Certified Developer - Associate
     issuer: Amazon Web Services
-    date: 2023
-    link: https://aws.amazon.com/certification
+    date: 2018
+    link: https://cp.certmetrics.com/amazon/en/public/verify/credential/9M58HY6C2M41149K
+  
+  - name: AWS Certified Solutions Architect - Associate
+    issuer: Amazon Web Services
+    date: 2018
+    link: https://cp.certmetrics.com/amazon/en/public/verify/credential/1CZM14P1C1VE14W9
+
+  - name: AWS Certified Cloud Practitioner
+    issuer: Amazon Web Services
+    date: 2018
+    link: https://cp.certmetrics.com/amazon/en/public/verify/credential/R26HB1P1KNF1QHWJ
 
   - name: Microsoft Certified Professional
     issuer: Microsoft
